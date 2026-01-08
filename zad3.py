@@ -1,0 +1,6 @@
+import pandas as pd
+df=pd.read_csv('demografia.csv', na_values=['0'],decimal='.')
+max_przyrost=pandas.DataFrame
+print(max_przyrost)
+kraj=df.loc[max_przyrost, "KRAJE"]
+print(kraj)
